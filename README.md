@@ -1,4 +1,3 @@
--Web-Development 
 
 webs develop staff Project Title: Kids’ Fun Day Student Information: Nonkululeko Masinga, in Diploma information Technology Website Goals: Promote the kids’ Fun Day event. Allow participants to register online.  
 
