@@ -51,6 +51,9 @@ Fast loading pages.
 Clear registration buttons. 
 Accessible contract information.  
 
+Gallary navigation:
+add a price given reference image at https://www.magnific.com/vectors/kids-athletics
+
 
 
 
