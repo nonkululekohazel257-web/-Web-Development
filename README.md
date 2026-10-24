@@ -54,6 +54,31 @@ Accessible contract information.
 Gallary navigation:
 add a price given reference image at https://www.magnific.com/vectors/kids-athletics
 
+/* java Script*/
+functionality: 
+implement a gallery with lightbox to display image in a larger view when clicked.
+implement search functionality to filter and sort content.
+create a dynamic greeating on home page to welcome the user.
+
+Search Engine Optimization:
+URL Structure create clean and descriptive URLs.
+Mobile-Friendliness my website is mobile-frindly.
+
+Additional Requests:
+Create robots.txt file to instruct search engine understanding the structure of my website.
+Create sitemap to help search engine undestand the structure of website.
+
+Form Functionality:
+Add an Enquiry.html that allow user to enquiry about the event.
+form Element to collect user information.
+Form Validation to validate userinput. 
+Form Submission to specify the URL where the form data is sent.
+Error heading display if they are an error of the data of user is invalid.
+
+
+
+
+
 
 
 
