@@ -61,6 +61,7 @@ implement search functionality to filter and sort content.
 create a dynamic greeating on home page to welcome the user.
 
 Search Engine Optimization:
+Create a netlify link to find a website: https://famous-capybara-ff9b0a.netlify.app/
 URL Structure create clean and descriptive URLs.
 Mobile-Friendliness my website is mobile-frindly.
 
@@ -74,6 +75,8 @@ form Element to collect user information.
 Form Validation to validate userinput. 
 Form Submission to specify the URL where the form data is sent.
 Error heading display if they are an error of the data of user is invalid.
+
+
 
 
 
