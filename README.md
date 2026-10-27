@@ -125,7 +125,7 @@ Changelog:
 
 References:
 - Deployed on Netlify:https://famous-capybara-ff9b0a.netlify.app/
-- GitHub Repo: 
+- GitHub Repo: https://github.com/nonkululekohazel257-web/-Web-Development/edit/main/README.md
 
 
 
