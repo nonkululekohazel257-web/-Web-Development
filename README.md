@@ -1,80 +1,131 @@
+ PART 1 /*HTML*/
+1. Project Title:
+Kids’ Fun Day – Game On... Let Play!
 
-webs develop staff Project Title: Kids’ Fun Day Student Information: Nonkululeko Masinga, in Diploma information Technology Website Goals: Promote the kids’ Fun Day event. Allow participants to register online.  
+2. Student Information:
+- Student Name: Nonkululeko Masinga
+- Student Number: ST10491414
+- Module: Web Development (Introduction)
+- Assessment: Portfolio of Evidence (POE)
 
-The website will include: Home Page: Introduction to Kids’ Fun Day. Hero banner with “Kids’ Fun Day- Game On ...Let Play”, event date and other buttons: Register your Team and About the Event. About Us – Mission, Vision and Event background.  
+3. Project Overview:
+Kids’ Fun Day is a community event website designed to promote outdoor activities, teamwork, healthy competition and physical fitness among children aged 9–11 in Ward 13, Kwa Novunula.
+The website provides information about the event, games, team registration, winners, photographs and contact details. It aims to make event information accessible to children, parents, guardians, sponsors and volunteers.
 
-Phase  
+4. Website Goals and Objectives:
+- Promote the Kids’ Fun Day event.
+- Allow participants to register online.
+- Share event information, rules and schedules.
+- Display event photographs and winners.
+- Encourage sponsor and volunteer enquiries.
+- Improve communication with parents and participants.
 
-time  
+5. Key Features and Functionality:
+- Home: Introduces the event and displays a dynamic greeting.
+- About: Explains the organisation, mission and vision.
+- Events and Games: Presents game information, rules and scoring.
+- Registration: Provides a participant registration form.
+- Gallery and Winners: Displays event photographs and winner information.
+- Enquiry: Allows users to submit questions.
+- Contact: Provides contact information and a contact form.
+- JavaScript: Supports interactive features and form validation.
+- CSS: Provides website styling and responsive design.
 
-Activities/Milestones  
+6. Technical Requirements:
+- HTML for website structure.
+- CSS for styling and layout.
+- JavaScript for interactive functionality.
+- Visual Studio Code for development.
+- Git and GitHub for version control and project submission.
 
-Planning Phase  
+7. Timeline and Milestones:
+1. Planning: Define the website purpose, target audience and objectives.
+2. Design: Plan the website layout, navigation and colours.
+3. Development: Create the HTML pages and CSS styling.
+4. JavaScript: Add interactive features and form validation.
+5. Testing: Check navigation, forms, links and page layout.
+6. Part 1 Submission: Document the initial website and project requirements.
+7. Future Updates: Improve and extend the website in later submissions.
 
-2-3 weeks before the event.  
+8. Part 1 Details:
+Part 1 covers the initial project planning and website development documentation, including the project overview, goals and objectives, proposed features, design, technical requirements and timeline.
+Parts 2 and 3 will be added as required in future submissions.
 
-Confirm venue, date & Permissions.  
+9. Sitemap:
+- Home
+- About
+- Events and Games
+- Registration
+- Gallery and Winners
+- Enquiry
+- Contact
 
-Recruits 10 participants (5boys,5 girls)  
+10. Changelog:
+- Created the initial website pages.
+- Added website navigation and page content.
+- Added CSS styling.
+- Added JavaScript functionality where implemented.
 
-Assign team colours (yellow, Green, Blue, Red, Orange & Purple)  
+Future Updates:
+- Record new features, corrections and improvements here.
+- Add the date and a short description for each update.
 
-Preparation Phase  
+11. References:
+- GoDaddy (2025). Website design reference. https://www.godaddy.com
+- Yusufdemirci (2024). Success and teamwork concept with cartoon kids. Vecteezy. https://www.vecteezy.com
 
-1-week before the event  
 
-Finalize 5 outdoor games and rules.  
+PART 2  /* CSS */
+Project Name: Kids’ Fun Day – Game On... Let Play!
 
-Prepare Scorecards &Materials.  
+Project Overview:
+A responsive website for a kids gaming event, built with HTML
+Part 2 focuses on CSS improvements, responsiveness, and UI enhancements based on Part 1 feedback.
 
-Announce Prizes for 1st & 2nd place. 
+Update(new information pertinement)
+- Unified 6 separate CSS files into one clean `style.css` to improve loading speed
+- Fixed syntax errors: `border-radius: none` -> `12px`, `box-sizing: none` -> `border-box`
+- Fixed missing class selectors: `kids-logo` -> `.kids-logo`
+- Improved visual hierarchy with consistent purple theme (#7c3aed)
+- Added responsive design for mobile (600px breakpoint)
+- Added greeting banner with time-based JS greeting
+- Optimized tables (.games-table, .budget-table) with hover effects and shadows
+- Improved form accessibility with focus states
 
-  /* CSS */
-Design Aesthetic:  
-Bright, fun, and energetic, with a playful look. It should appeal to children while still appearing professional and trustworthy to parents and community leaders. 
+Changelog:
+- NEW: Added greeting-banner component
+- NEW: Added responsive media queries
+- FIX: Removed duplicate body, header, nav, footer declarations (6x duplication)
+- FIX: Corrected invalid CSS values (none values)
+- FIX: Fixed form button transitions
 
-Colour Scheme:  
-Lime green reads well on grass and energetic. Sky Blue calming contrast and Lite brown represent the soil and look good in a festival outdoor game. 
+  Initial:
+- Created HTML pages: index, about, events, gallery, registration, contact
+- Basic CSS styling for layout
 
- Typography:  
-Headings bold and Body test Arial or Calibri. 
+References:
+- Lecturer Feedback Document - Part 1
+-image at https://www.magnific.com/vectors/kids-athletics.
 
-Layout:  
-simple and colourful design. 
-Large buttons and icons for easy navigation 
-Easy-to-read content. 
-Responsive design for mobile phone, tables, and computers. 
 
-Use Experience: 
-Easy navigation menu. 
-Fast loading pages. 
-Clear registration buttons. 
-Accessible contract information.  
-
-Gallary navigation:
-add a price given reference image at https://www.magnific.com/vectors/kids-athletics
 
 /* java Script*/
-functionality: 
-implement a gallery with lightbox to display image in a larger view when clicked.
-implement search functionality to filter and sort content.
-create a dynamic greeating on home page to welcome the user.
+ Updates:
+- Implemented Error Handling: Changed from alert() only to inline DOM error messages with red borders and <small> error text for better UX
+- Implemented AJAX Form Submission: Used fetch() API to submit contact, enquiry, and registration forms asynchronously without page reload.
+- Improved validation: Email regex, 10-digit phone validation, loop validation for 10 participants
+- Maintained responsive design and accessibility (aria-hidden, keyboard Escape to close lightbox)
 
-Search Engine Optimization:
-Create a netlify link to find a website: https://famous-capybara-ff9b0a.netlify.app/
-URL Structure create clean and descriptive URLs.
-Mobile-Friendliness my website is mobile-frindly.
+Changelog:
+- FEEDBACK EDITS from Part 2:
+    - Fixed typo "purpule" in greetingBanner
+    - Removed duplicate inline styles, now uses CSS class .greeting-banner
+    - Added form reset after successful submission
+- References updated
 
-Additional Requests:
-Create robots.txt file to instruct search engine understanding the structure of my website.
-Create sitemap to help search engine undestand the structure of website.
-
-Form Functionality:
-Add an Enquiry.html that allow user to enquiry about the event.
-form Element to collect user information.
-Form Validation to validate userinput. 
-Form Submission to specify the URL where the form data is sent.
-Error heading display if they are an error of the data of user is invalid.
+References:
+- Deployed on Netlify:https://famous-capybara-ff9b0a.netlify.app/
+- GitHub Repo: 
 
 
 
