@@ -109,7 +109,7 @@ References:
 
 
 
-/* java Script*/
+ Part 3 /* java Script*/
  Updates:
 - Implemented Error Handling: Changed from alert() only to inline DOM error messages with red borders and <small> error text for better UX
 - Implemented AJAX Form Submission: Used fetch() API to submit contact, enquiry, and registration forms asynchronously without page reload.
