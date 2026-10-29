@@ -39,13 +39,13 @@ The website provides information about the event, games, team registration, winn
 - Git and GitHub for version control and project submission.
 
 7. Timeline and Milestones:
-1. Planning: Define the website purpose, target audience and objectives.
-2. Design: Plan the website layout, navigation and colours.
-3. Development: Create the HTML pages and CSS styling.
-4. JavaScript: Add interactive features and form validation.
-5. Testing: Check navigation, forms, links and page layout.
-6. Part 1 Submission: Document the initial website and project requirements.
-7. Future Updates: Improve and extend the website in later submissions.
+- Planning: Define the website purpose, target audience and objectives.
+- Design: Plan the website layout, navigation and colours.
+- Development: Create the HTML pages and CSS styling.
+- JavaScript: Add interactive features and form validation.
+-Testing: Check navigation, forms, links and page layout.
+- Part 1 Submission: Document the initial website and project requirements.
+- Future Updates: Improve and extend the website in later submissions.
 
 8. Part 1 Details:
 Part 1 covers the initial project planning and website development documentation, including the project overview, goals and objectives, proposed features, design, technical requirements and timeline.
